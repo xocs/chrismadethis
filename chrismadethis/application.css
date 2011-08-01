@@ -1,0 +1,92 @@
+/*-----------------------------------------------------------------------------
+chrismadethis.co.uk
+
+version:   1.0
+author:    Christopher Scott
+email:     me@chrismadethis.co.uk
+website:   http://www.chrismadethis.co.uk/
+-----------------------------------------------------------------------------*/
+
+/* TOC
+-----------------------------------------------------------------------------
+
+1  - General
+2  - Structure
+3  - Link & Styles
+
+
+
+/* 1=General
+-----------------------------------------------------------------------------*/
+* {margin: 0; padding: 0;}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, fieldset, table, ul {margin: 10px 0;}
+.clear {clear:both;}
+img {border: 0;}
+html {height:100%;}
+body {margin:0 auto;background: #333 url(images/bg.png);padding:0;font-size:80%;font-family: "Courier New", Courier, monospace;color:#fff;}
+ul {list-style-type: none;padding: inherit;margin:inherit;}
+ol {list-style: none;padding: inherit;margin:inherit;}
+li {list-style:none;}
+
+
+/* 2=structure
+-----------------------------------------------------------------------------*/
+
+#container{width:970px;margin:0 auto;padding:0;border:0;text-align:left;min-height:500px;background: url(images/bg2.png) no-repeat;}
+#content_bg{width:430px;float:left;;border:0;margin:0 0px 0 70px;text-align:left;min-height:600px;background: url(images/bg3.png) no-repeat;}
+.content{width:340px;padding:70px 0px 0 20px;height:auto;float:left;}
+#me{width:160px;float:left;;border:0;margin:50px 0 0 0;text-align:left;min-height:600px;background: url(images/me.png) no-repeat;}
+
+
+/* 1=links & styles
+-----------------------------------------------------------------------------*/
+
+.red{color:#F00;}
+
+p{font-weight:bold}
+
+strong{text-shadow: 1px 2px 0px #000;}
+	
+a {text-decoration:none;color:#CCC;font-weight:bolder; text-shadow: 1px 2px 0px #000; }
+a:hover{color:#FFF}
+
+a.git{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/git.png) 0 0;text-indent:-9000px;}
+a.git:hover{background: url(images/git.png) 32px 0;}
+	
+a.twitter{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/twitter.png) 0 0;text-indent:-9000px;}
+a.twitter:hover{background: url(images/twitter.png) 32px 0;}
+	
+a.dribble{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/dribble.png) 0 0;text-indent:-9000px;}
+a.dribble:hover{background: url(images/dribble.png) 32px 0;}
+	
+	
+a.plancast{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/plancast.png) 0 0;text-indent:-9000px;}
+a.plancast:hover{background: url(images/plancast.png) 32px 0;}
+	
+a.facebook{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/facebook.png)  0 0;text-indent:-9000px;}
+a.facebook:hover{background: url(images/facebook.png) 32px 0;}
+	
+a.flickr{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/flickr.png) 0 0;text-indent:-9000px;}
+a.flickr:hover{background: url(images/flickr.png) 32px 0;}
+
+a.skype{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/skype.png) 0 0;text-indent:-9000px;}
+a.skype:hover{background: url(images/skype.png) 32px 0;}
+	
+a.lastfm{width:32px;height:32px;margin:30px 5px 20px 5px;float:left;background: url(images/lastfm.png) 0 0;text-indent:-9000px;}
+a.lastfm:hover{background: url(images/lastfm.png) 32px 0;}
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
